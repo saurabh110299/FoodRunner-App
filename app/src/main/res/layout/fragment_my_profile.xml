@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MyProfileFragment"
+    android:orientation="vertical"
+    android:background="@color/appColor">
+
+    <ImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_name"
+        />
+
+    <TextView
+        android:id="@+id/txtProfileName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="Name"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtProfileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="Number"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtProfileEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="Email"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/txtProfileAddress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:text="Address"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:background="#ffffff"
+        android:textColor="#000000" />
+
+
+
+
+
+</LinearLayout>

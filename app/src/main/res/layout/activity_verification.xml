@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.VerificationActivity"
+    android:orientation="vertical"
+    android:background="@color/appColor">
+
+    <TextView
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below:"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/etOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="#ffffff"
+        android:hint="OTP(4 characters)"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/etNewPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:background="#ffffff"
+        android:hint="New Password(Min. 4 characters)"
+
+        />
+
+
+    <EditText
+        android:id="@+id/etConfirmPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#ffffff"
+        android:textSize="15sp"
+        android:hint="Confirm Password"
+
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Submit"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+
+        />
+
+
+
+
+</LinearLayout>

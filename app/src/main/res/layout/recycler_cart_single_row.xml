@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="6">
+
+    <TextView
+        android:id="@+id/txtFoodItem"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.5"
+        android:drawableLeft="@drawable/ic_bulletin"
+        android:drawablePadding="5dp"
+        android:text="Hello"
+        android:textColor="#000000"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/txtFoodPrice"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center_horizontal"
+        android:text="Price"
+        android:layout_margin="5dp"
+        android:textColor="#000000"/>
+
+
+
+
+
+
+
+</LinearLayout>
